@@ -2,6 +2,8 @@ package second.debug;
 
 import second.debug.hidden.MakeThings;
 
+import static java.util.Objects.isNull;
+
 public class Breakpoints {
 
     public static void main(final String... args) {
