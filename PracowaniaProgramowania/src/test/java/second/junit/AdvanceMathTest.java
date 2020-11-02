@@ -21,7 +21,7 @@ public class AdvanceMathTest {
     @Test
     public void additionTest() {
         Integer a = math.addition(1,4);
-        assertTrue(a==5);
+        assertTrue(a==6);
     }
 
     @Test
