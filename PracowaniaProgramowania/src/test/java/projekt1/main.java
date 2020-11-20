@@ -1,6 +1,6 @@
 package projekt1;
-import org.junit.Test;
-import org.junit.Assert;
+//import org.junit.test;
+//import org.junit.Assert;
 
 import java.util.*;
 import java.io.File;  // Import the File class
@@ -25,12 +25,7 @@ public class main {
         FileSave.Zapisz(pesel,"pesele.txt");
 
 
-
-
-
     }
-
-
 
 
     static boolean SprawdzPesel2(String pesel) {
@@ -61,10 +56,10 @@ public class main {
     }
 
 
-    @Test
+    //@Test
     public void SprawdzPesel_test() {
-        boolean result = SprawdzPesel("70100702472");
-        Assert.assertTrue(result == true);
+        boolean result = SprawdzPesel("02070803628");
+        //Assert.assertTrue(result == true);
     }
 
     static boolean SprawdzPesel(String pesel) {
